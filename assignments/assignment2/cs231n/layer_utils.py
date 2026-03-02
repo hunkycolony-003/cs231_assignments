@@ -27,7 +27,7 @@ def affine_bn_relu_forward(x, w, b, gamma, beta, bn_param):
     cache = (fc_cache, bn_cache, relu_cache)
     return out, cache
 
-def affine_bn_relu_do_forward(x, w, b, gamma, beta, bn_param):
+def affine_bn_relu_dr_forward(x, w, b, gamma, beta, bn_param):
     ...
 
 def affine_bn_relu_backward(dout, cache):
